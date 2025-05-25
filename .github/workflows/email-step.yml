@@ -1,5 +1,11 @@
-mkdir -p .github/workflows
-nano .github/workflows/email-step.yml  # paste the YAML, then Ctrl+O, Enter, Ctrl+X
-git add .
-git commit -m "Add GitHub Action with email step"
-git push
+name: Email Step Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "23f3001403@ds.study.iitm.ac.in"
+        run: echo "Hello, world!"
