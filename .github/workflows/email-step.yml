@@ -1,0 +1,5 @@
+mkdir -p .github/workflows
+nano .github/workflows/email-step.yml  # paste the YAML, then Ctrl+O, Enter, Ctrl+X
+git add .
+git commit -m "Add GitHub Action with email step"
+git push
